@@ -1,39 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f7ff;
+    background-color: #eef5ff;
     margin: 0;
 }
+
 
 .container {
     max-width: 700px;
     margin: auto;
-    padding: 25px;
     background: white;
+    padding: 25px;
     min-height: 100vh;
 }
 
+
 h1 {
-    color: #0057b8;
     text-align: center;
+    color: #0057b8;
 }
 
+
 .question {
-    margin: 25px 0;
+    background: #f3f8ff;
     padding: 15px;
-    border-radius: 10px;
-    background: #eef5ff;
+    margin-top: 20px;
+    border-radius: 12px;
 }
+
 
 label {
     display: block;
-    padding: 10px;
     font-size: 18px;
+    padding: 10px;
 }
+
 
 input[type="radio"] {
     transform: scale(1.5);
     margin-right: 10px;
 }
+
 
 input[type="text"] {
     width: 90%;
@@ -41,13 +47,25 @@ input[type="text"] {
     font-size: 18px;
 }
 
+
 button {
     width: 100%;
     padding: 15px;
     margin-top: 15px;
     font-size: 20px;
-    background-color: #0057b8;
     color: white;
+    background-color: #0057b8;
     border: none;
     border-radius: 10px;
+}
+
+
+button:hover {
+    background-color: #003f87;
+}
+
+
+#result {
+    margin-top: 25px;
+    color: #333;
 }
